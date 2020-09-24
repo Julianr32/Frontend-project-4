@@ -50,6 +50,7 @@ a {
 
 /* ====GLOBAL STYLES==== */
 .main {
+  padding: 3rem 0;
   height: auto;
   background-color: var(--clr-vlightg-blue);
   display: flex;
@@ -83,7 +84,6 @@ a {
 }
 
 /* --TOOGLE BTN-- */
-
 .toggle-btn {
   display: flex;
   align-items: center;
@@ -139,7 +139,7 @@ a {
 .card {
   border-radius: 5px;
   margin: 5rem auto 2rem auto;
-  height: 370px;
+  height: 350px;
   width: 290px;
   padding: 3rem;
   text-align: center;
@@ -241,6 +241,7 @@ a {
 /* ====MEDIA QUERIES=== */
 @media (min-width: 800px) {
   .main {
+    padding: 0;
     justify-content: space-around;
     height: 100vh;
   }
