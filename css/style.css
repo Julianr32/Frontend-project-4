@@ -82,6 +82,8 @@ a {
   margin-bottom: 3rem;
 }
 
+/* --TOOGLE BTN-- */
+
 .toggle-btn {
   display: flex;
   align-items: center;
@@ -131,6 +133,7 @@ a {
 .check-btn:checked {
   opacity: 0.7;
 }
+/* -- END TOOGLE BTN-- */
 
 /* --CARD STYLES-- */
 .card {
@@ -187,7 +190,7 @@ a {
   );
   border: 1px solid none;
   cursor: pointer;
-  color: #fff;
+  color: var(--clr-white);
   font-size: 1.2rem;
   color: var(--clr-white);
   text-transform: uppercase;
@@ -212,7 +215,7 @@ a {
 }
 
 .alt-btn {
-  background-color: white;
+  background-color: var(--clr-white);
   background-image: var(--clr-white);
   color: var(--clr-gradient2);
 }
@@ -235,6 +238,7 @@ a {
   color: var(--clr-lightg-blue);
 }
 
+/* ====MEDIA QUERIES=== */
 @media (min-width: 800px) {
   .main {
     justify-content: space-around;
